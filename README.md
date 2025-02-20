@@ -1,11 +1,19 @@
-# SQL 1 Exam Solution
+# Examen SQL 1
 
-## Overview
-Brief description of the exam assignment and its main objectives.
+## Descripción General
+Diseño de base de datos para la pizzeria "Pizza Fiesta". 
+El sistema debe permitir el registro y manejo de clientes, productos.
+La base de datos debe controlar los ingredientes utilizados en cada pizza, así como manejar los precios para pizzas de distintos tamaños.
+El sistema debe gestionar el pago y la recogida de los pedidos, asegurando que los pedidos se preparen solo una vez confirmado el pago.
 
-## Database Structure
-Quick overview of the database schema I worked with:
-- Tables involved
+## Estructura de la Base de Datos
+Vista general del esquema con el que diseñé la base de datos:
+### Tablas Utilizadas
+- Clientes
+- Productos
+- Pedidos
+
+
 - Key relationships
 - Important constraints
 
