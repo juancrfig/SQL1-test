@@ -9,19 +9,17 @@ El sistema debe gestionar el pago y la recogida de los pedidos, asegurando que l
 ## Estructura de la Base de Datos
 Vista general del esquema con el que diseñé la base de datos:
 ### Tablas Utilizadas
-- Clientes
-- Productos
-- Pedidos
-
-
-- Key relationships
-- Important constraints
-
+- Cliente
+- Producto
+- Pedido
+- Bebida
+- Pizza
+- Combo
 
 ### Parte 1: [Diseñar el Diagrama Relacional]
 
 Llevé a cabo esta tarea primero identificando las tablas principales, las cuales no dependen 
-de llaves foráneas, entre estas tablas diseñé la tablas "cliente", "producto". 
+de llaves foráneas, entre estas tablas diseñé la tablas "cliente", "bebida", "ingrediente". 
 
 ### Parte 2: [Hacer el ingreso de datos en la base de datos]
 
@@ -34,7 +32,5 @@ En el archivo `estructura.sql` se encuentra todas las instrucciones para crear l
 ## Desafíos Encontrados
 
 - Asignación dinámica de ingredientes para las pizzas: 
-
-[Description] → Solution: [Approach]
 
 ---
