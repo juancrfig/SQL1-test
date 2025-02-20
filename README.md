@@ -17,20 +17,19 @@ Vista general del esquema con el que diseñé la base de datos:
 - Key relationships
 - Important constraints
 
-## Proceso de Resolución
-Cómo manejé las preguntas del examen paso a paso.
-
 
 ### Parte 1: [Diseñar el Diagrama Relacional]
 
 Llevé a cabo esta tarea primero identificando las tablas principales, las cuales no dependen 
 de llaves foráneas, entre estas tablas diseñé la tablas "cliente", "producto". 
-**Explanation:** I approached this by first understanding that [your reasoning]. The query uses [technique/join/subquery] because [reasoning].
 
 ### Parte 2: [Hacer el ingreso de datos en la base de datos]
 
+
 En el repositorio se encuentra un archivo llamado `datos.sql` el cual contiene 
-todos los comandos que se usan para realizar efectivo el ingreso de información.
+todos los comandos que se usan para realizar efectivo el ingreso de información, así como las 15 consultas requeridas.
+
+En el archivo `estructura.sql` se encuentra todas las instrucciones para crear la base de datos.
 
 ## Desafíos Encontrados
 
