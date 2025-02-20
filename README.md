@@ -17,20 +17,20 @@ Vista general del esquema con el que diseñé la base de datos:
 - Key relationships
 - Important constraints
 
-## Solution Approach
-How I tackled the exam questions step by step.
+## Proceso de Resolución
+Cómo manejé las preguntas del examen paso a paso.
 
-### Part 1: [Specific Task Name]
-```sql
--- SQL code here
-```
+
+### Parte 1: [Diseñar el Diagrama Relacional]
+
+Llevé a cabo esta tarea primero identificando las tablas principales, las cuales no dependen 
+de llaves foráneas, entre estas tablas diseñé la tablas "cliente", "producto". 
 **Explanation:** I approached this by first understanding that [your reasoning]. The query uses [technique/join/subquery] because [reasoning].
 
-### Part 2: [Specific Task Name]
-```sql
--- SQL code here
-```
-**Explanation:** For this challenge, I needed to [your thought process]. I chose to use [SQL feature] to efficiently handle [specific problem].
+### Parte 2: [Hacer el ingreso de datos en la base de datos]
+
+En el repositorio se encuentra un archivo llamado `datos.sql` el cual contiene 
+todos los comandos que se usan para realizar efectivo el ingreso de información.
 
 ## Challenges Encountered
 Brief description of any tricky parts and how I solved them:
